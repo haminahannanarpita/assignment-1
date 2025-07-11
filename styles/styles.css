@@ -1,4 +1,7 @@
 /* header styles */
+body{
+    background-color: #e9edf6;
+}
 .header{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
@@ -129,7 +132,7 @@
 .feedback-card{
     height: 190px;
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(251, 251, 251);
     border:1px solid rgb(242, 237, 237);
     border-radius: 10px;
     box-shadow: #a0a0a1;
@@ -151,4 +154,43 @@
 }
 span{
     font-weight: 400;
+}
+
+/* Let's get touch section */
+
+.get-touch{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: 20px 0px;
+
+}
+
+.touch-heading{
+    font-size: 95px;
+    font-weight: 700;
+    color:rgb(0, 0, 0) ;
+}
+label{
+    font-weight: 600;
+}
+input{
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #D6DDED;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid #D6DDED;
+    margin-top: 10px;
+}
+.touch-btn{
+    height: 50px;
+    width: 354px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
