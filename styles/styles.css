@@ -126,6 +126,7 @@ body{
     font-size: 70px;
     font-weight: 700;
     color: rgb(78, 71, 255);
+    margin-bottom: 0px;
 }
 .content-para{
     font-family: inter;
@@ -194,13 +195,44 @@ span{
     font-weight: 400;
 }
 
+/* ready to focus section */
+.focus{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    height: 632px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 50px 280px;
+}
+
+.focus-title{
+    font-family: raleway;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.focus-para{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.focus-image{
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
 /* Let's get touch section */
 
 .get-touch{
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
-    margin: 20px 0px;
+    margin: 100px 0px;
 
 }
 
