@@ -1,6 +1,24 @@
+/* font added */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-normal {
+  font-family: Inter, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+..raleway-normal {
+  font-family: Raleway, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 /* header styles */
 body{
     background-color: #e9edf6;
+    margin: 0px;
 }
 .header{
     background-image: url(../Assets/Hero-bg.png);
@@ -21,17 +39,23 @@ body{
     font-size: 34px;
     font-weight: 900;
     color: #4E47FF;
+    font-family: Inter;
 }
 
 .btn{
     background-color: #4E47FF;
     color: #FFFF;
+    font-family: raleway;
     font-weight: 700;
     font-size: 16px;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
 
+}
+.btn:hover{
+    background-color: rgb(220, 120, 233);
+    transition: 1s;
 }
 
 /* banner part */
@@ -40,6 +64,7 @@ body{
     font-weight: 700;
     font-size: 65px;
     margin-top: 200px;
+    font-family:raleway ;
 }
 
 .banner-content{
@@ -60,11 +85,14 @@ body{
     border: none;
 }
 .action-heading{
+    font-family: raleway;
     font-size: 46px;
     font-weight: 600;
     color: rgb(37, 36, 50);
 }
 .action-para{
+    font-family: raleway;
+    font-weight: 400;
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
 }
@@ -87,17 +115,20 @@ body{
     
 }
 .productive-title{
+    font-family: raleway;
     font-size: 38px;
     font-weight: 700;
     color: rgb(37, 36, 50);
 }
 
 .content-heading{
+    font-family: inter;
     font-size: 70px;
     font-weight: 700;
     color: rgb(78, 71, 255);
 }
 .content-para{
+    font-family: inter;
     margin-top: 0px;
     font-size: 20px;
     font-weight: 400;
@@ -112,6 +143,7 @@ body{
     
 }
 .feedback-title{
+    font-family: raleway;
     text-align: center;
     font-size: 42px;
     font-weight: 700;
@@ -122,15 +154,19 @@ body{
 .feedback{
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 80px;
 }
 .card-heading{
+    font-family: inter;
     font-weight: 600;
     font-size: 24px;
 }
+.card-para{
+    font-family: inter;
+}
 
 .feedback-card{
-    height: 190px;
+    height: 200px;
     width: 300px;
     background-color: rgb(251, 251, 251);
     border:1px solid rgb(242, 237, 237);
@@ -149,10 +185,12 @@ body{
     border-radius: 50px;
 }
 .down-para{
+    font-family: inter;
     font-weight: 700;
     color:rgba(68, 68, 68, 0.5) ;
 }
 span{
+    font-family: inter;
     font-weight: 400;
 }
 
@@ -167,16 +205,19 @@ span{
 }
 
 .touch-heading{
+    font-family: raleway;
     font-size: 95px;
     font-weight: 700;
     color:rgb(0, 0, 0) ;
 }
 label{
+    font-family: inter;
     font-weight: 600;
 }
 input{
+    font-family: inter;
     height: 50px;
-    width: 350px;
+    width: 380px;
     border-radius: 5px;
     border: 1px solid #D6DDED;
     margin-top: 10px;
@@ -184,13 +225,61 @@ input{
 
 }
 textarea{
+    font-family: inter;
     border-radius: 5px;
+    width: 380px;
     border: 1px solid #D6DDED;
     margin-top: 10px;
 }
 .touch-btn{
     height: 50px;
-    width: 354px;
+    width: 384px;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+/* footer section  */
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    height: 428px; ;
+    
+    
+
+}
+
+.footer-heading{
+    font-family: inter;
+    font-size: 100px;
+    font-weight: 900;
+    color:rgb(78, 71, 255);
+    text-align: center;
+    padding-top: 40px;
+   
+    margin-bottom: 0;
+}
+.footer-para{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color:rgb(137, 135, 161) ;
+}
+ul li{
+    font-family: inter;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    cursor: pointer;
 }
